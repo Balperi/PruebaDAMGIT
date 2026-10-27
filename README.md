@@ -1,18 +1,47 @@
-## Getting Started
+# PruebaDAMGIT
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Este es mi primer proyecto de aprendizaje como estudiante de primero de Desarrollo de Aplicaciones Multiplataforma (DAM).
 
-## Folder Structure
+## Descripción
 
-The workspace contains two folders by default, where:
+Este repositorio forma parte de mi aprendizaje de Java y del uso de Git y GitHub para gestionar y publicar proyectos de programación.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## Tecnologías utilizadas
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+- Java
+- Visual Studio Code
+- Git
+- GitHub
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+## Estructura del proyecto
 
-## Dependency Management
+```text
+PruebaDAMGIT/
+├── src/
+│   └── Main.java
+├── .gitignore
+└── README.md
+```
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+## Cómo ejecutar el proyecto
+
+Es necesario tener instalado un JDK compatible con el código fuente.
+
+Desde la carpeta principal del proyecto, ejecuta:
+
+```bash
+java src/Main.java
+```
+
+El programa mostrará dos mensajes por consola.
+
+## Objetivos de aprendizaje
+
+- Practicar los fundamentos de Java.
+- Aprender a organizar un proyecto.
+- Utilizar Git para registrar cambios.
+- Publicar y documentar código en GitHub.
+
+## Estado del proyecto
+
+Proyecto inicial de aprendizaje que se irá ampliando a medida que avance mi formación en DAM.
