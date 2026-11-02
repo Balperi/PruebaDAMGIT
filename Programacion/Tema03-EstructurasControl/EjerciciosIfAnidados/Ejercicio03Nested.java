@@ -22,6 +22,7 @@ public class Ejercicio03Nested {
         int importe = 200;
         int descuento = 0;
         double descuentoTotal=0;
+        double importeTotal = importe - descuentoTotal;
 
         if (VIP) {
             if (importe > 100) {
@@ -41,7 +42,6 @@ public class Ejercicio03Nested {
         }
 
         descuentoTotal = (1.0*descuento*importe)/100;
-        double importeTotal = importe - descuentoTotal;
         System.out.println("El importe total es de" + importeTotal + " euros.");
     }
 }
