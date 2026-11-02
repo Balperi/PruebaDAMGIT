@@ -11,15 +11,13 @@ public class Ej03Fundamentos {
          * esperado: true
          */
 
-        boolean discount;
-        boolean socio = false;
-        double amount = 120.50;
+        boolean socio = true;
+        double amount = 20;
+        boolean discount = socio || amount > 100;
 
-        if (socio || amount > 100) {
-            discount = true;
+        if (discount) {
             System.out.println("Descuento válido.");
         } else {
-            discount = false;
             System.out.println("No elegible para descuento.");
         }
 
