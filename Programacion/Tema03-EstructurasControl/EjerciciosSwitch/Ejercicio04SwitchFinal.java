@@ -20,7 +20,7 @@ public class Ejercicio04SwitchFinal {
      * Resultado esperado: "Precio final: 15"
      */
 
-    public static void main (String[] args) {
+    public static void main(String[] args) {
 
         int ticket = 0;
         boolean vip = true;
@@ -38,7 +38,7 @@ public class Ejercicio04SwitchFinal {
             case "sur":
                 ticket = 60;
                 break;
-            default :
+            default:
                 System.out.println("Zona no válida.");
                 return;
         }
@@ -48,7 +48,6 @@ public class Ejercicio04SwitchFinal {
         }
 
         System.out.println("Precio final: " + ticket);
-
 
     }
 }
