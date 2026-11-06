@@ -19,9 +19,9 @@ public class Ej02While {
 
         while (index < word.length()) {
             if (word.charAt(index) == 'a') {
-                total = total +1;
+                total = total + 1;
             }
-            index = index +1;
+            index = index + 1;
         }
 
         System.out.println("Cantidad de 'a': " + total);
