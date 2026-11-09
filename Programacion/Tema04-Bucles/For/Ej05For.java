@@ -19,7 +19,7 @@ public class Ej05For {
         char letra = 'r';
         int veces = 0;
 
-        for (int i = 0; i<texto.length(); i++) {
+        for (int i = 0; i < texto.length(); i++) {
             if (texto.charAt(i) == letra) {
                 veces++;
             }
