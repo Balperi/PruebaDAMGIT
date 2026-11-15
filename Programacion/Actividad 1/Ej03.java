@@ -32,7 +32,8 @@ public class Ej03 {
             System.out.println("Triánulo correcto.");
             if (lado1 == lado2 && lado2 == lado3) {
                 System.out.println("Triángulo equilátero.");
-            } else if ((lado1 == lado2 && lado1 != lado3) || (lado1 == lado3 && lado1 != lado2) || (lado2 == lado3 && lado1 != lado3)) {
+            } else if ((lado1 == lado2 && lado1 != lado3) || (lado1 == lado3 && lado1 != lado2)
+                    || (lado2 == lado3 && lado1 != lado3)) {
                 System.out.println("Triángulo isósceles.");
             } else {
                 System.out.println("Triángulo escaleno.");
