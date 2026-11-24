@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Ej1 {
+public class Ej01primer {
 
     /*
      * 1. Leer números, de uno en uno, hasta que se introduzca un 0. Para cada uno
